@@ -41,10 +41,10 @@ requirements.txt - File containing required Python packages.
 
 ## Running the Project
 ### Step 1: Preprocess Data
-Run the data.py script to load and preprocess the data. This will generate the images_with_ships and images_without_ships lists. Execute this step in a Kaggle kernel if you encounter memory issues locally.
+Run the data.py script to load and preprocess the data(Specify the path to directories with data - img_dir and csv_file). This will generate the images_with_ships and images_without_ships lists. Execute this step in a Kaggle kernel if you encounter memory issues locally.
 
 ### Step 2: Generate Processed Data
-Run the preprocess.py script to create the X.npy and y.npy files in the data/processed directory.
+Run the preprocess.py script to create the X.npy and y.npy files in the data/processed directory. ( You have to specify the directory in save_dir (data/processed)
 
 ### Step 3: Train the Model
 Run the train.py script to train the model. This script will:
