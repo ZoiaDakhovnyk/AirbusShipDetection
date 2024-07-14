@@ -2,11 +2,14 @@
 This project aims to detect ships in satellite images using a segmentation approach. The project is structured into several stages, including data preprocessing, model training, and evaluation. The project is implemented using PyTorch and the UNet architecture.
 
 ## Project Structure
-  ### 'data/'
-   'processed/' - Directory containing preprocessed data (X.npy and y.npy).
-   'train/' - Directory containing original training images 
-	  train_ship_segmentations_v2.csv
- ### 'src/'			
+### 'data/'
+'processed/' - Directory containing preprocessed data (X.npy and y.npy).
+
+'train/' - Directory containing original training images 
+
+train_ship_segmentations_v2.csv
+ 
+### 'src/'			
 	
  1. data.py - Contains functions for data loading, preprocessing, and balancing:
 load_images_and_mask
