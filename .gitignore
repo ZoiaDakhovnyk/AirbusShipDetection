@@ -1,1 +1,4 @@
 data/train/
+src/model.pth
+data/processed/X.npy
+data/processed/y.npy
