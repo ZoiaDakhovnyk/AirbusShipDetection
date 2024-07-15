@@ -47,7 +47,7 @@ Run the data.py script to load and preprocess the data(Specify the path to direc
 Run the preprocess.py script to create the X.npy and y.npy files in the data/processed directory. ( You have to specify the directory in save_dir (data/processed)
 
 ### Step 3: Train the Model
-Run the train.py script to train the model. This script will:
+Run the train.py script to train the model(Specify the path for X.npy and y.npy. They have to be in data/processed). This script will:
 
 Load the preprocessed data.
 Split the data into training, validation, and test sets using stratified sampling.
